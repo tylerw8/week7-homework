@@ -1,0 +1,23 @@
+/*Tyler Waite HTML5 Homework Week 8*/
+h1 {font-size: 3rem;}
+h2 {font-size: 2rem;}
+#logo {
+  width: 100px;
+  height: 100px;
+}
+.instructorImage {
+  width: 150px;
+  height: 200px;
+}
+.instructorDescription {
+  width: 300px;
+  height: 200px;
+}
+ul{
+  list-style-type: none;
+}
+
+img.classImg {
+  width: 300px;
+  height: 300px;
+}
