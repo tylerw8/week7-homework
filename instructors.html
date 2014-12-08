@@ -4,39 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <title>Straight to the Point Archery</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600" rel="stylesheet" type="text/css">
   <link href="styles/stylesheet.css" rel="stylesheet">
+  <script src="js/script.js"></script>
 </head>
 <body>
   <header>
-    <a href="index.html"><img id="logo" src="images/logo.jpg" alt="Straight to the Point Archery logo"></a> 
+    <a href="index.html"><img id="logo" src="images/logo.jpg" onmouseover="mouseoversound.playclip()" alt="Straight to the Point Archery logo"></a> 
     <h1 id="corpName">Straight to the Point Archery</h1>
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="classes.html">Classes</a></li>
-      <li><a href="instructors.html">Instructors</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="index.html" onmouseover="mouseoversound.playclip()">Home</a></li>
+      <li><a href="classes.html" onmouseover="mouseoversound.playclip()">Classes</a></li>
+      <li><a href="instructors.html" onmouseover="mouseoversound.playclip()">Instructors</a></li>
     </ul>
   </nav>    
   </header>
-  <h2>Instructors:</h2> 
+  <div id="instructors" class="row">
+    <h2 class="spann_4_of_4">Instructors</h2> 
+    <ul class="span_1_of_4">
+      <li><img class="span_4_of_4" src="images/derek-jenkins-instructor.jpg" alt="Derek Jenkins"></li>
+      <li><p><strong>Derek Jenkins:</strong> Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
+      </li>
+    </ul>
+    
+    <ul class="span_1_of_4">
+      <li><img class="span_4_of_4" src="images/amy-smith-instructor.jpg" alt="Amy Smith"></li>
+      <li><p><strong>Amy Smith:</strong> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
+      </li>
+    </ul>
   
-  <img class="instructorImage" src="images/derek-jenkins-instructor.jpg" alt="Derek Jenkins">
-  <p class="instructorDescription"><strong>Derek Jenkins:</strong> Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-  
-  <img class="instructorImage" src="images/amy-smith-instructor.jpg" alt="Amy Smith">
-  <p class="instructorDescription"><strong>Amy Smith:</strong> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-  
-  <img class="instructorImage" src="images/nathan-lee-instructor.jpg" alt="Nathan Lee">
-  <p class="instructorDescription"><strong>Nathan Lee:</strong> Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in Archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-  
-  <img class="instructorImage" src="images/doona-bae-instructor.jpg" alt="Doona Bae">
-  <p class="instructorDescription"><strong>Doona Bae:</strong> Doona is a passionate bow hunter and avid target archer now for many years. She is a level two NAA Instructor. Doona has competed in both State and National Indoor and Outdoor level Archery Tournaments and IBO/3D Tournaments. She enjoys working with all levels of archers.</p>
+    <ul class="span_1_of_4">
+      <li><img class="span_4_of_4" src="images/nathan-lee-instructor.jpg" alt="Nathan Lee"></li>
+      <li><p><strong>Nathan Lee:</strong> Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in Archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+      </li>
+    </ul>
 
+    <ul class="span_1_of_4">
+      <li><img class="span_4_of_4" src="images/doona-bae-instructor.jpg" alt="Doona Bae"></li>
+      <li><p><strong>Doona Bae:</strong> Doona is a passionate bow hunter and avid target archer now for many years. She is a level two NAA Instructor. Doona has competed in both State and National Indoor and Outdoor level Archery Tournaments and IBO/3D Tournaments. She enjoys working with all levels of archers.</p>
+      </li>
+    </ul>
+  </div>
 
-  <footer>528 Nock Point Ln
-Tacoma, WA 98412
-archery-education@example.com
-  (253)555-1010</footer>
+  <div class="row">
+  <footer class="span_4_of_4"><small>Straight to the Point Archery 528 Nock Point LnTacoma, WA 98412, Email: archery-education@example.com, Phone: (253)555-1010</footer></div>
   </body>
 </html>

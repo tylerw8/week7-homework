@@ -1,18 +1,66 @@
 /*Tyler Waite HTML5 Homework Week 8*/
-h1 {font-size: 3rem;}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {font-family: 'Open Sans', sans-serif;}
+
+h1 {float:left;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px #757575;
+}
+
 h2 {font-size: 2rem;}
-#logo {
-  width: 100px;
+
+header {
+  background-color: #c1e057;
   height: 100px;
 }
-.instructorImage {
-  width: 150px;
-  height: 200px;
+
+#logo {height: 100px;
+       width:100px;
+       margin-right: 50px;
+       float: left;
 }
-.instructorDescription {
-  width: 300px;
-  height: 200px;
+
+/*
+[class*='span_'] {
+  padding-right: 20px;
 }
+[class*='span_']:last-of-type {
+  padding-right: 0;
+}
+*/
+
+
+nav a {color: black;
+      text-decoration: none;
+          text-decoration: none;              
+}
+
+nav {float:right;
+     text-align: right;
+     padding-right: 20px;
+       }
+
+li {
+  list-style-type: none;
+}
+       
+
+
+
+#classes, #instructors {clear: both;}
+
+
+footer {float:left;
+  background-color: #cccccc;
+}
+
+
 ul{
   list-style-type: none;
 }
@@ -20,4 +68,80 @@ ul{
 img.classImg {
   width: 300px;
   height: 300px;
+}
+
+#classes ul, #privateLessons ul, #instructors ul {float:left;}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+    background-color: white;
+}
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.66666666%; 
+}
+
+.span_1_of_3 {
+	width: 33.33333333%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%; 
+	}
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 100%; 
+}
+
+.span_3_of_4 {
+	width: 74.6%; 
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4 {
+		width: 100%; 
+	}
+	.span_3_of_4 {
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
+		width: 100%; 
+	}
 }
